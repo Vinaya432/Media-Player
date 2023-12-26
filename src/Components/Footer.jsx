@@ -13,7 +13,7 @@ function Footer() {
           <p>Code licenced MIT,docs CC BY 3.0.</p>
         
         </div>
-        <div className="links col-lg-2">
+        <div className="links col-lg-2 mb-2">
           <div className='d-flex flex-column '>
             <h3>Links</h3>
             <Link  style={{textDecoration:'none',color:'white'}} to={'/'}>Landing Page</Link>
@@ -21,20 +21,20 @@ function Footer() {
             <Link style={{textDecoration:'none',color:'white'}} to={'/history'}>Watch History</Link>
           </div>
         </div>
-        <div className="guide col-lg-2 text-light">
+        <div className="guide col-lg-2 text-light mb-2">
           <div className='d-flex flex-column'>
             <h3>Guides</h3>
-            <a style={{textDecoration:'none',color:'white'}} href="" target='_blank'>React</a>
-            <a style={{textDecoration:'none',color:'white'}} href="" target='_blank'>React Bootstrap</a>
-            <a style={{textDecoration:'none',color:'white'}} href="" target='_blank'>React routing</a>
+            <a style={{textDecoration:'none',color:'white'}} href="https://react.dev/" target='_blank'>React</a>
+            <a style={{textDecoration:'none',color:'white'}} href="https://react-bootstrap.netlify.app/" target='_blank'>React Bootstrap</a>
+            <a style={{textDecoration:'none',color:'white'}} href="https://www.npmjs.com/package/react-router-dom" target='_blank'>React routing</a>
           </div>
         </div>
         
-        <div className="contact col-lg-3">
+        <div className="contact col-lg-3 ">
           <h3>Contact Us</h3>
           <div className="d-flex">
               <input placeholder='Enter Your Email' type="text" className='form-control'/>
-              <button className='btn btn-info'></button>
+              <button className='btn btn-info ms-2'><i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div className="icons d-flex justify-content-between mt-3">
               <i style={{height:'45px'}} class="fa-solid fa-envelope fa-2x"></i>
